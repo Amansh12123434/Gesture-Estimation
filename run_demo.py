@@ -1,9 +1,4 @@
-"""
-FINAL IMPROVED VERSION
-- Clear "Plugins Enabled" display at top
-- Shows exactly which plugins are loaded
-- Better visual hierarchy
-"""
+
 
 import cv2
 import os
@@ -397,4 +392,5 @@ hands.close()
 cv2.destroyAllWindows()
 
 print(f"\n[INFO] Total frames processed: {frame_count}")
+
 print("[INFO] System shutdown complete. Goodbye!\n")
